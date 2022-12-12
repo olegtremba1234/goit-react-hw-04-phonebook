@@ -1,0 +1,15 @@
+.filter {
+  background-color: rgba(74, 195, 247, 0.94);
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.labelFilter {
+  color: #000;
+}
+
+.filterInput {
+  margin-left: 20px;
+  border-radius: 5px;
+}

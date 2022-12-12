@@ -1,0 +1,35 @@
+.form {
+  background-color: rgba(74, 195, 247, 0.94);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  color: black;
+}
+
+label:last-child {
+  margin-bottom: 0px;
+}
+
+.inputName {
+  margin-left: 28px;
+  border-radius: 5px;
+}
+.inputNumber {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.buttonEditor {
+  transition: all 300ms;
+}
+
+.buttonEditor:hover,
+.buttonEditor:focus {
+  transform: scale(1.05);
+}
